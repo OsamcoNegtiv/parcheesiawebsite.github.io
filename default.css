@@ -602,3 +602,9 @@ ul.style3 .first {
   background-color: #04AA6D;
   color: white;
 }
+
+/* Add a color to the active/current link */
+.topnav a.button {
+  background-color: #04AA6D;
+  color: white;
+}
