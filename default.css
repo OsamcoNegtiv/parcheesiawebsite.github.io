@@ -303,6 +303,9 @@ hr {
 #footer {
 	overflow: hidden;
 	padding: 50px 0px 30px 0px;
+	bottom: 0%;
+	position: fixed;
+	text-align: center;
 }
 
 #footer p {
@@ -312,8 +315,6 @@ hr {
 
 #footer a {
 		color: rgba(0,0,0,0.7);
-		bottom: 0%;
-		position: fixed;
 }
 
 /* List style 1 */
