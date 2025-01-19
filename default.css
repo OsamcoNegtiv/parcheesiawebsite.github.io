@@ -579,6 +579,8 @@ ul.style3 .first {
 .topnav {
   background-color: #333;
   overflow: hidden;
+  position: sticky;
+  top: 0;
 }
 
 /* Style the links inside the navigation bar */
@@ -617,4 +619,10 @@ ul.style3 .first {
 .topnav button.button {
   background-color: #04AA6D;
   color: white;
+}
+
+/* Makes the Login form Better */
+.form {
+	text-align: center;
+	margin: auto;
 }
