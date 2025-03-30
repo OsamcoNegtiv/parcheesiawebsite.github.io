@@ -2,16 +2,8 @@ var currentModal = "Maddox";
 var modal = document.getElementById(currentModal);
 
 function loginscript() {
-    let uname = prompt("username?")
-    let pword = prompt("password?")
-    if (uname == "bob" && pword == "didit") {
-        currentModal = "bobModal";
-        modal = document.getElementById(currentModal);
-        alert(currentModal);
-        displaymodal()
-    } else {
-        alert("Booo! Nooo!")
-    }
+    let charID = prompt("ID?");
+    alert(quips[charID])
 }
 
 // Get the <span> element that closes the modal
